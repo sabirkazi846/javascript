@@ -16,9 +16,9 @@ const location = { city: "New York", country: "USA" };
 // Add extra elements to fruits and vegetables while combining
 
 // Example 5: Spreading for Function Arguments
-const numbers = [5, 10, 15];
-const sum = (x, y, z) => x + y + z;
+const numbers = [5, 10, 15, 40];
+const e = (x, y, z) => x + y + z;
 // Use the array with the function
 
-let r = { ...person, ...location };
+let r = e(...numbers);
 console.log(r);

@@ -20,5 +20,5 @@ const numbers = [5, 10, 15];
 const sum = (x, y, z) => x + y + z;
 // Use the array with the function
 
-let r = [...colors];
+let r = { ...person, ...location };
 console.log(r);
